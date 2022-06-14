@@ -11,5 +11,8 @@ module.exports = function (app) {
   //   res.send("get dummy 요청 성공");
   // });
 
+  // 학생 테이블 조회
   app.get("/students/:studentIdx", index.readStudents);
+  // 학생 생성
+  app.post("/students", index.createStudent);
 };
