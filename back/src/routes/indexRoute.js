@@ -11,12 +11,15 @@ module.exports = function (app) {
   //   res.send("get dummy 요청 성공");
   // });
 
-  // 학생 테이블 조회
-  app.get("/students/:studentIdx", index.readStudents);
-  // 학생 생성
-  app.post("/students", index.createStudent);
-  // 학생 업데이트
-  app.patch("/students/:studentIdx", index.updateStudent);
-  // 학생 삭제
-  app.delete("/students/:studentIdx", index.deleteStudent);
+  // // 학생 테이블 조회
+  // app.get("/students/:studentIdx", index.readStudents);
+  // // 학생 생성
+  // app.post("/students", index.createStudent);
+  // // 학생 업데이트
+  // app.patch("/students/:studentIdx", index.updateStudent);
+  // // 학생 삭제
+  // app.delete("/students/:studentIdx", index.deleteStudent);
+
+  // 식당 목록 조회
+  app.get("/restaurants", index.readRestaurants);
 };
