@@ -1,20 +1,15 @@
-@font-face {
-  font-family: "KyoboHandwriting2020A";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112@1.0/KyoboHandwriting2020A.woff")
-    format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
 
 * {
   padding: 0;
   margin: 0;
+  font-weight: normal;
   box-sizing: border-box;
 }
 
 html {
   font-size: 10px;
-  font-family: "KyoboHandwriting2020A";
+  font-family: "Jua", sans-serif;
 }
 
 nav {
@@ -42,7 +37,7 @@ nav {
 }
 
 .category-title {
-  font-size: 3.5rem;
+  font-size: 4.5rem;
 }
 
 .category-item {
@@ -51,7 +46,7 @@ nav {
   background: none;
   border: none;
   font-family: inherit;
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 
 .category-item:hover {
